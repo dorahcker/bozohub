@@ -61,6 +61,6 @@ local Window = Rayfield:CreateWindow({
  local Button = MainTab:CreateButton({
    Name = "Richest Minion",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Flroa/aztupforEpsilon/main/epslion.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Flroa/targeteater.com/main/richminion/Main.lua"))()
    end,
 })
