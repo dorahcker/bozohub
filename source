@@ -64,9 +64,3 @@ local Window = Rayfield:CreateWindow({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Flroa/targeteater.com/main/richminion/Main.lua"))()
    end,
 })
-
-local Button = MainTab:CreateButton({
-   Name = "fpsunlocker",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/dorahcker/fpsunlock/main/source"))()
-})
